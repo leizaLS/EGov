@@ -46,7 +46,7 @@ async function newMessage (client, message){
     }
     await client.sendMessage(message.from, msg);
 
-
+    
     //let jsonlist = '{"1":"hola" , "2":"chau" , "3":"adios"}'
     //let msg = '1'
     //if (jsonlist.includes(msg)) {
